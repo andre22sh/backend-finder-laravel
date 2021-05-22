@@ -37,7 +37,7 @@
 					<ul class="nav">
 						<li><a href="" class=""><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
 						<li><a href="/content" class="active"><i class="lnr lnr-inbox"></i> <span>Content</span></a></li>
-                        <li><a href="/user" class=""><i class="lnr lnr-user"></i> <span>User</span></a></li>
+                        <li><a href="/guestbook" class=""><i class="lnr lnr-user"></i> <span>Guest user</span></a></li>
 						<li><a href="/feedback" class=""><i class="lnr lnr-thumbs-up"></i> <span>Feedback</span></a></li>
 						
 						
