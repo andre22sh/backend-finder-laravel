@@ -17,7 +17,7 @@
 										<thead class="table-dark text-center">
 											<tr>
 												<th>Title</th>
-                        <th>Slug</th>
+                        <th>Image</th>
                         <th>Shortdesc</th>
                         <th>Description</th>
                         <th>Action</th>
@@ -27,7 +27,7 @@
 											 @foreach($contents as $content)
                           <tr>
                               <td>{{$content->title}}</td>
-                              <td>{{$content->slug}}</td>
+                              <td><img src="/img/{{$content->image}}" width="150"></td>
                               <td>{{$content->shortdesc}}</td>
                               <td>{{$content->description}}</td>
                               <td class=""><a href="/content/{{$content->id}}/edit" class=" btn btn-warning rounded btn-sm">Edit</a><br></br>
